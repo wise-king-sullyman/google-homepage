@@ -1,0 +1,1 @@
+This is an attempt to use developer tools to analyze an existing webpage and rebuild it
