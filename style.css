@@ -1,0 +1,22 @@
+.nav_top{
+    border: solid;
+    display: block;
+    overflow: auto;
+}
+
+.nav_left{
+    border: solid;
+    display: inline;
+}
+
+.nav_right{
+    border: solid;
+    float: right;
+
+}
+.main{
+    border: solid;
+    display: block;
+    margin: auto;
+    width: 33%;
+}
