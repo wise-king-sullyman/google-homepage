@@ -5,7 +5,16 @@
     color: #000;
 }
 
+.display_inline{
+    display: inline;
+    padding: 0 2px 0 2px;
+    margin: auto;
+    /*border: solid 1px;*/
+    vertical-align: top;
+}
 .nav_top{
+    float: left;
+    height: 50px;
     width: 100%;
     padding-top: 20px;
     padding-bottom: 10px;
@@ -15,18 +24,23 @@
 }
 
 .nav_left{
-    display: inline;
+    display: inline-block;
     padding-left: 1%;
     opacity: 0.75;
+    /*border: solid 1px;*/
+    height: 50px;
+    line-height: 50px;
 }
 
 .nav_right{
     float: right;
-    /*padding: 0 1% 0 0;*/
-    border: solid 1px;
+    overflow: hidden;
+    padding: 0 1% 0 0;
+    /*border: solid 1px;*/
     /*width: 200px;*/
-    height: 30px;
     margin: auto;
+    height: 50px;
+    line-height: 50px;
 }
 
 .GmailImages{
@@ -39,13 +53,14 @@
 }
 
 .google_apps{
-    display: inline;
+    display: inline-block;
     padding: 0 2px 0 2px;
     /*border: solid 1px;*/
+    margin-top: 10px;
 }
 
 .sign_in{
-    display: inline-block;
+    display: inline;
     background: -moz-linear-gradient(top,#4387fd,#4683ea);
     border: solid 1px #4285f4;
     padding: 5px;
@@ -109,6 +124,7 @@
     background-color: #f2f2f2;
     border-radius: 5px;
     border: 1px solid #f2f2f2;
+    color: #5F6368;
 }
 
 .Lucky{
@@ -119,6 +135,7 @@
     background-color: #f2f2f2;
     border-radius: 5px;
     border: 1px solid #f2f2f2;
+    color: #5F6368;
 }
 
 .foot{  
